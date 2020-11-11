@@ -1,0 +1,30 @@
+{
+    "name": "Minediscord",
+    "description": "Minecraft bot controlled from discord",
+    "repository": "https://github.com/pentatester/minediscord",
+    "keywords": [
+        "node",
+        "minecraft",
+        "discord",
+        "bot"
+    ],
+    "env": {
+        "TOKEN": {
+            "description": "Discord bot token from (https://discord.com/developers/applications).",
+            "value": "BOT TOKEN HERE"
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "type": "worker",
+            "command": "node heroku.js"
+        },
+        "web": {
+            "quantity": 0,
+            "type": "web",
+            "command": "node heroku.js"
+        }
+    },
+    "website": "https://github.com/pentatester/minediscord#readme"
+}
