@@ -1,0 +1,24 @@
+{
+  "name": "minediscord",
+  "version": "0.0.0",
+  "description": "Minecraft bot connected with discord.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pentatester/minediscord.git"
+  },
+  "keywords": [
+    "minecraft",
+    "bot",
+    "discord"
+  ],
+  "author": "hexatester",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/pentatester/minediscord/issues"
+  },
+  "homepage": "https://github.com/pentatester/minediscord#readme"
+}
